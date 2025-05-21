@@ -2,8 +2,6 @@ import { Helmet } from "react-helmet";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import SkillsSection from "@/components/SkillsSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export default function LandingPage() {
@@ -21,8 +19,6 @@ export default function LandingPage() {
       <main>
         <HeroSection />
         <SkillsSection />
-        <TestimonialsSection />
-        <CTASection />
       </main>
       <Footer />
     </>
