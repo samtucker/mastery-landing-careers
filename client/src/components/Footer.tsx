@@ -1,5 +1,3 @@
-import Logo from "./Logo";
-
 export default function Footer() {
   const courseLinks = [
     "Software Engineering",
@@ -29,7 +27,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="text-2xl font-bold mb-4 flex items-center">
-              <Logo textColor="text-white" />
+              <span className="text-white">Mastery Learning</span>
             </div>
             <p className="text-gray-400 mb-4">Building elite skills for tomorrow's opportunities.</p>
             <div className="flex space-x-4">
@@ -82,7 +80,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-10 pt-6 text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} SkillForge Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mastery Learning Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
