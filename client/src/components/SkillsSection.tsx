@@ -25,10 +25,10 @@ export default function SkillsSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-neutral-800 mb-4">
-            Your perfect interview starts here
+            Essential skills for your dream career
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Practice with 100+ expert-vetted interviews, get feedback on your performance, and land your dream opportunity.
+            Master the exact knowledge and practical skills you need to succeed in today's competitive job market. Learn from industry experts and build a portfolio that gets noticed.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export default function SkillsSection() {
 
         <div className="mt-10 text-center">
           <Button size="lg" className="rounded-full px-8 font-medium">
-            View all interviews
+            View all courses
           </Button>
         </div>
       </div>
